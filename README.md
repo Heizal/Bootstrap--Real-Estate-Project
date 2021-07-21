@@ -6,5 +6,5 @@ For this project I collaborated with the instructors from the Visiola Foundation
 
 Feel free to fork it, redesign it and recreate it into your own website.
 
-Live Website link: https://heizal.github.io/Bootstrap--Real-Estate-Project/
+Live Website(desktop view) link: https://heizal.github.io/Bootstrap--Real-Estate-Project/
 
