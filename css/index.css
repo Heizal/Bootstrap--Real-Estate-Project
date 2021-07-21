@@ -1,0 +1,245 @@
+.navbar{
+    background-color: rgb(235, 168, 168);
+
+}
+
+
+.navbar-link{
+    margin-right: 1em !important; 
+}
+
+.navbar-link, .navbar-brand, a{
+    color: white;
+    transition: 500ms;
+}
+
+.navbar-link, a:hover{
+    color: brown;
+    background: white;
+}
+
+/*Header css*/
+header{
+    position: relative;
+    /*background-image: url(../images/team-leader-writing-on-white-board-picjumbo-com.jpg);*/
+    background-position:center;
+    background-size: cover;
+}
+
+
+.header video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    object-fit: cover;
+    
+}
+
+/*header for blog*/
+header{
+    position: relative;
+    /*background-image: url(../images/team-leader-writing-on-white-board-picjumbo-com.jpg);*/
+    background-position:center;
+    background-size: cover;
+}
+
+.overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    min-height: 100%;
+    min-width: 100%;
+    mix-blend-mode: darken;
+    background:rgb(87, 85, 85);
+    /*mix-blend-mode: overlay;*/
+}
+
+.description{
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    padding: 2em;
+}
+
+.description h1{
+    color: white;
+}
+
+.description p{
+    color: white;
+    font-size: 1.1em;
+   /* font-weight: 200;*/
+    width: 70%;
+    line-height: 2;
+}
+
+.description button{
+    border: rgb(235, 168, 168);
+    background: rgb(235, 168, 168);
+    color: white;
+}
+
+
+
+/*about section*/
+.about{
+    position: relative;
+    margin: 4em;
+}
+
+.about h1{
+    color:  rgb(235, 168, 168);
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.about img{
+    height: 100%;
+    width: 100%;
+    border: solid rgb(235, 168, 168);
+    border-radius: 25%;
+}
+
+.about span{
+    display: block;
+    color: grey;
+    position: absolute;
+    left: 125px;
+}
+
+.about .about-container{
+    padding: 2em;
+    border-left: 2px solid rgb(226, 193, 193);
+}
+
+.about .about-container h3{
+    font-size: 3.2em;
+}
+
+.about .about-container p{
+    line-height: 2;
+}
+
+
+/*mortgage css*/
+
+.mortgage{
+    position: relative;
+    margin: 4em;
+}
+
+.mortgage h1{
+    color: rgb(235, 168, 168);
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.mortgage img{
+    margin: 1em;
+    width: 100%;
+    transition: 500ms;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.mortgage img:hover{
+    opacity: 1;
+}
+
+/*contact us css*/
+.contact-form{
+    position: relative;
+    margin: 6em;
+}
+
+.contact-form h1{
+    font-size: 3.2em;
+}
+
+.contact-form .myform{
+    max-width: 600px;
+}
+
+.contact-form .myform .btn-success{
+    background: white;
+    color: rgb(235, 168, 168);
+    font-size: 22px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.contact-form .myform .btn-success:hover{
+    border: rgb(235, 168, 168);
+    background: rgb(235, 168, 168);
+    color: white;
+
+}
+
+
+/*css for blog section*/
+.blog{
+    margin: 4em;
+    position: relative;  
+}
+
+.blog .item{
+    position: relative;
+    overflow: hidden;
+}
+
+.blog .des{
+    background:rgb(235, 168, 168);
+    color: white;
+    text-align: center;
+    border-bottom-right-radius: 93%;
+    transition: 0.6ms ease-in-out;
+    position: absolute;
+    width: 89%;
+    bottom: 24px;
+}
+
+.blod .des h6{
+    font-size: 1.1em;
+}
+
+.blog .item:hover .des{
+    height: 100%;
+    background: rgb(224, 191, 191);
+    position: absolute;
+    top: 0;
+    width: 92%;
+    padding: 5em;
+    border-bottom-right-radius: 0;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.blog .item:hover .des h6{
+    font-size: 2.0em;
+    font-weight: 600;
+    color: rgb(212, 17, 17);
+
+}
+
+/*custom css for my scroll bar*/
+::-webkit-scrollbar-track{
+    box-shadow: inset 0 0 5px;
+    border-radius: 10px;
+}
+
+
+::-webkit-scrollbar{
+    width: 15px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: rgb(247, 207, 207);
+    border-radius: 10px;   
+}
+
+
+
+
